@@ -24,6 +24,6 @@
     <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\bin\Release\netcoreapp1.0\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netcoreapp1.0" />
 
     <!-- net45 -->
-    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\bin\Release\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\net45" />
+    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\bin\Release\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\net45" />
   </files>
 </package>
