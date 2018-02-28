@@ -19,8 +19,8 @@
   <files>
     <!-- shared -->
     <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK\bin\Release\netstandard1.0\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netstandard1.0" />
-    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK\bin\Release\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netstandard1.0" />
-    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK\bin\Release\netcoreapp2.0\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netstandard1.0" />
+    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK\bin\Release\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\net45" />
+    <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK\bin\Release\netcoreapp2.0\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netcoreapp2.0" />
     
     <!-- netcoreapp 2.0 -->
     <file src="..\src\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\bin\Release\netcoreapp2.0\DotNetNuke.Web.Mvc.RazorPages.SDK.*" target="lib\netcoreapp2.0" />
