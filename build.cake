@@ -1,7 +1,7 @@
 var TARGET = Argument ("target", Argument ("t", "Default"));
 var VERSION = EnvironmentVariable ("APPVEYOR_BUILD_VERSION") ?? Argument("version", "0.0.9999");
 var CONFIG = Argument("configuration", EnvironmentVariable ("CONFIGURATION") ?? "Release");
-var PROJECT_NAME = "DnnConnector";
+var PROJECT_NAME = "DotNetNuke.Web.Mvc.RazorPages.SDK";
 var SLN = $"{PROJECT_NAME}.sln";
 
 Task("Libraries").Does(()=>

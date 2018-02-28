@@ -254,7 +254,7 @@ if ($Mono) { $cakeArguments += "-mono" }
 $cakeArguments += $ScriptArgs
 
 # run nuget command
-nuget restore DnnConnector.sln
+nuget restore DotNetNuke.Web.Mvc.RazorPages.SDK.sln
 
 # Start Cake
 Write-Host "Running build script..."

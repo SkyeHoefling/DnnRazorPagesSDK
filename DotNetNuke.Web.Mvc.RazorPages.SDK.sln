@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.csproj", "{5DC4D31D-1FEA-4539-A83B-46418EC96464}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{25AC2583-46DD-4E74-9B7D-75E6DB2CE6C6}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		build.sh = build.sh
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3A0EC933-0B07-4AED-8E13-216239CBAA37}"
 	ProjectSection(SolutionItems) = preProject
