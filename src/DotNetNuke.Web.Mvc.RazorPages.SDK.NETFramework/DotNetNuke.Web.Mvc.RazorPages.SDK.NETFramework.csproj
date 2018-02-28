@@ -41,13 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK\DotNetNuke.Web.Mvc.RazorPages.SDK.csproj">
-      <Project>{d9961414-6f8c-4891-8e61-e105d02e6cd1}</Project>
-      <Name>DotNetNuke.Web.Mvc.RazorPages.SDK</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
