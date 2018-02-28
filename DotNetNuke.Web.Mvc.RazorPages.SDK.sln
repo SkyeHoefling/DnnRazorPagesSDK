@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK", "src\DotNetNuke.Web.Mvc.RazorPages.SDK\DotNetNuke.Web.Mvc.RazorPages.SDK.csproj", "{D9961414-6F8C-4891-8E61-E105D02E6CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.Core", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\DotNetNuke.Web.Mvc.RazorPages.SDK.Core.csproj", "{34164498-FF28-457E-B058-5227B9827695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.csproj", "{5DC4D31D-1FEA-4539-A83B-46418EC96464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{25AC2583-46DD-4E74-9B7D-75E6DB2CE6C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3A0EC933-0B07-4AED-8E13-216239CBAA37}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.nuspec = .nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.nuspec
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\README.md = .nuget\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9961414-6F8C-4891-8E61-E105D02E6CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9961414-6F8C-4891-8E61-E105D02E6CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9961414-6F8C-4891-8E61-E105D02E6CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9961414-6F8C-4891-8E61-E105D02E6CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34164498-FF28-457E-B058-5227B9827695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34164498-FF28-457E-B058-5227B9827695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34164498-FF28-457E-B058-5227B9827695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34164498-FF28-457E-B058-5227B9827695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC4D31D-1FEA-4539-A83B-46418EC96464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC4D31D-1FEA-4539-A83B-46418EC96464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC4D31D-1FEA-4539-A83B-46418EC96464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC4D31D-1FEA-4539-A83B-46418EC96464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0F519E5-D36B-4CAA-A712-0DC193D96D36}
+	EndGlobalSection
+EndGlobal

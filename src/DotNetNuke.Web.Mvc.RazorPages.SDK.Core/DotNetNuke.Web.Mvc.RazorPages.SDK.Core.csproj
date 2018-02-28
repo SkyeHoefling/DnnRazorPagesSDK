@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK\DotNetNuke.Web.Mvc.RazorPages.SDK.csproj" />
+  </ItemGroup>
+
+</Project>
