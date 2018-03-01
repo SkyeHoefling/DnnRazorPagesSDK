@@ -2,15 +2,26 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;net45;netcoreapp2.0</TargetFrameworks>
+    <!--<TargetFrameworks>net45;</TargetFrameworks>-->
   </PropertyGroup>
   
   <!-- Need to conditionally bring in references for the .NET Framework 4.0 target -->
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
     <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.csproj" />
+    <PackageReference Include="DotNetNuke.Core" Version="9.1.1.129" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.1.1" />
+    <Reference Include="System.Web" />
   </ItemGroup>
 
   <!-- Need to conditionally bring in references for the .NET Core 1.0 target -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
     <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\DotNetNuke.Web.Mvc.RazorPages.SDK.Core.csproj" />
   </ItemGroup>
+  <!--<ItemGroup>
+    <PackageReference Include="DotNetNuke.Core" Version="9.1.1.129" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>-->
 </Project>
