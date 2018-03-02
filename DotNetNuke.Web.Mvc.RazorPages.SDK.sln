@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK", "src\DotNetNuke.Web.Mvc.RazorPages.SDK\DotNetNuke.Web.Mvc.RazorPages.SDK.csproj", "{D9961414-6F8C-4891-8E61-E105D02E6CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNuke.Web.Mvc.RazorPages.SDK", "src\DotNetNuke.Web.Mvc.RazorPages.SDK\DotNetNuke.Web.Mvc.RazorPages.SDK.csproj", "{D9961414-6F8C-4891-8E61-E105D02E6CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.Core", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\DotNetNuke.Web.Mvc.RazorPages.SDK.Core.csproj", "{34164498-FF28-457E-B058-5227B9827695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.Core", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\DotNetNuke.Web.Mvc.RazorPages.SDK.Core.csproj", "{34164498-FF28-457E-B058-5227B9827695}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework", "src\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.csproj", "{5DC4D31D-1FEA-4539-A83B-46418EC96464}"
 EndProject
@@ -19,6 +19,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3A0EC933-0B07-4AED-8E13-216239CBAA37}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.nuspec = .nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.nuspec
+		.nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.Platform.nuspec = .nuget\DotNetNuke.Web.Mvc.RazorPages.SDK.Platform.nuspec
 		.nuget\NuGet.config = .nuget\NuGet.config
 		.nuget\README.md = .nuget\README.md
 	EndProjectSection

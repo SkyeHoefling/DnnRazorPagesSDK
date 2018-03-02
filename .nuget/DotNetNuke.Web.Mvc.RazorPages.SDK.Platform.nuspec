@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>DotNetNuke.Web.Mvc.RazorPages.SDK</id>
+    <id>DotNetNuke.Web.Mvc.RazorPages.SDK.Platform</id>
     <version>$version$</version>
     <title>The SDK for building DNN Razor Pages Modules</title>
     <authors>Andrew Hoefling</authors>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/ahoefling/DnnRazorPagesSDK</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The SDK for building DNN Razor Pages Modules for both NET Framework (platform) and vNext</description>
-    <summary>DNN Razor Pages SDK</summary>
+    <summary>DNN Razor Pages SDK - Built specifically for usage in DNN Platform Codebase</summary>
     <releaseNotes>For changelog go to: https://github.com/ahoefling/DnnRazorPagesSDK/blob/master/CHANGELOG.md</releaseNotes>
     <tags>DNN, .NET, dotnet core, razor pages, dotnet, netstandard</tags>
     <dependencies>
