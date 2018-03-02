@@ -65,7 +65,7 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Routing
             routeData.Values.Add("module", moduleName);
             routeData.Values.Add("page", pageName);
             // todo - add this to manifest
-            routeData.Values.Add("assembly", "MVCModule1");
+            routeData.Values.Add("assembly", assemblyName);
 
             if (httpContext != null)
             {
