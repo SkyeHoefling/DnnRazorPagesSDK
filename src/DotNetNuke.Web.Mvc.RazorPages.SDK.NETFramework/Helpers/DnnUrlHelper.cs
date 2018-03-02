@@ -50,7 +50,7 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Helpers
             ModuleContext = _controller.ModuleContext;
         }
 
-        internal UrlHelper UrlHelper { get; set; }
+        public UrlHelper UrlHelper { get; set; }
 
         public ModuleInstanceContext ModuleContext { get; set; }
 

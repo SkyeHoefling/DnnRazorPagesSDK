@@ -52,7 +52,7 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Helpers
 
         public Page DnnPage { get; set; }
 
-        internal HtmlHelper HtmlHelper { get; set; }
+        public HtmlHelper HtmlHelper { get; set; }
 
         public string LocalResourceFile { get; set; }
 

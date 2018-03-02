@@ -16,7 +16,7 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Helpers
         {
         }
 
-        internal new HtmlHelper<TModel> HtmlHelper => (HtmlHelper<TModel>)base.HtmlHelper;
+        public new HtmlHelper<TModel> HtmlHelper => (HtmlHelper<TModel>)base.HtmlHelper;
 
         public new object ViewBag => HtmlHelper.ViewBag;
 
