@@ -69,9 +69,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Framework\ActionResults\DnnPartialViewResult.cs" />
+    <Compile Include="Framework\ActionResults\DnnRedirectToRouteResult.cs" />
+    <Compile Include="Framework\ResultCapturingActionInvoker.cs" />
+    <Compile Include="Helpers\DnnHtmlHelper.cs" />
+    <Compile Include="Helpers\DnnHtmlHelperOfT.cs" />
+    <Compile Include="Helpers\PropertyHelper.cs" />
+    <Compile Include="Helpers\TypeHelper.cs" />
+    <Compile Include="DnnController.cs" />
     <Compile Include="DnnViewResult.cs" />
+    <Compile Include="DnnWebViewPage.cs" />
+    <Compile Include="Helpers\DnnHelperOfT.cs" />
+    <Compile Include="Helpers\DnnHelper.cs" />
+    <Compile Include="Helpers\DnnUrlHelper.cs" />
+    <Compile Include="IDnnController.cs" />
     <Compile Include="IDnnViewResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routing\ModuleRoutingProvider.cs" />
+    <Compile Include="Routing\StandardModuleRoutingProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
