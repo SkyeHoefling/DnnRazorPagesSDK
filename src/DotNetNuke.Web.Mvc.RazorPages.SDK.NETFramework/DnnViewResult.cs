@@ -15,15 +15,15 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework
 
             if (String.IsNullOrEmpty(ViewName))
             {
-                ViewName = context.RouteData.GetRequiredString("action");
+                ViewName = context.RouteData.GetRequiredString("page");
             }
 
             ViewEngineResult result = null;
 
             if (View == null)
             {
-                //result = ViewEngineCollection.FindView(context, ViewName, MasterName);
-                result = new ViewEngineResult(new RazorView(context, "~/DesktopModules/MVC/MVCModule1/Pages/Index.cshtml", null, false, null), new RazorViewEngine());
+                result = ViewEngineCollection.FindView(context, ViewName, MasterName);
+                //result = new ViewEngineResult(new RazorView(context, "~/DesktopModules/MVC/MVCModule1/Pages/Index.cshtml", null, false, null), new RazorViewEngine());
                 View = result.View;
             }
 
