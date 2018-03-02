@@ -42,6 +42,7 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Routing
         public override RouteData GetRouteData(HttpContextBase httpContext, ModuleControlInfo moduleControl)
         {
             var assemblyName = moduleControl.ControlTitle;
+            
             var segments = moduleControl.ControlSrc.Replace(".razorpages", "").Split('/');
             string routeNamespace = String.Empty;
             string routeModuleName;
@@ -64,8 +65,10 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Routing
             var routeData = new RouteData();
             routeData.Values.Add("module", moduleName);
             routeData.Values.Add("page", pageName);
-            // todo - add this to manifest
             routeData.Values.Add("assembly", assemblyName);
+            
+            // TODO - Figure out how to pull the path out of the manifest file
+            routeData.Values.Add("page-path", $"~/DesktopModules/MVC/RazorPagesModule/Pages/{pageName}.cshtml");
 
             if (httpContext != null)
             {
