@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DnnWebViewPageOfT.cs" />
     <Compile Include="Framework\ActionResults\DnnPartialViewResult.cs" />
     <Compile Include="Framework\ActionResults\DnnRedirectToRouteResult.cs" />
     <Compile Include="Framework\ResultCapturingActionInvoker.cs" />
