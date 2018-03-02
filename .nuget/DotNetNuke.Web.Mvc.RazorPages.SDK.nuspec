@@ -13,7 +13,16 @@
     <summary>DNN Razor Pages SDK</summary>
     <releaseNotes>For changelog go to: https://github.com/ahoefling/DnnRazorPagesSDK/blob/master/CHANGELOG.md</releaseNotes>
     <tags>DNN, .NET, dotnet core, razor pages, dotnet, netstandard</tags>
+    <frameworkAssemblies>
+      <group targetFramework="lib\net45">
+        <frameworkAssembly assemblyName="System.Web" />
+      </group>
+    </frameworkAssemblies>
     <dependencies>
+      <group targetFramework="lib\net45">
+        <dependency id="DotNetNuke.Core" version="9.1.1.129" />
+        <dependency id="Microsoft.AspNet.Mvc" version="[5.1.3]" />
+      </group>
     </dependencies>
   </metadata>
   <files>
