@@ -14,9 +14,7 @@
     <releaseNotes>For changelog go to: https://github.com/ahoefling/DnnRazorPagesSDK/blob/master/CHANGELOG.md</releaseNotes>
     <tags>DNN, .NET, dotnet core, razor pages, dotnet, netstandard</tags>
     <frameworkAssemblies>
-      <group targetFramework="lib\net45">
-        <frameworkAssembly assemblyName="System.Web" />
-      </group>
+      <frameworkAssembly assemblyName="System.Web" targetFramework="net45" />
     </frameworkAssemblies>
     <dependencies>
       <group targetFramework="lib\net45">
