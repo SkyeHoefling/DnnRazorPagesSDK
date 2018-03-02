@@ -1,6 +1,7 @@
 ﻿using DotNetNuke.Collections;
 using DotNetNuke.Common;
 using DotNetNuke.Entities.Modules;
+using DotNetNuke.Entities.Modules.Definitions;
 using DotNetNuke.UI.Modules;
 using System;
 using System.Collections.Generic;
@@ -66,9 +67,11 @@ namespace DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.Routing
             routeData.Values.Add("module", moduleName);
             routeData.Values.Add("page", pageName);
             routeData.Values.Add("assembly", assemblyName);
-            
-            // TODO - Figure out how to pull the path out of the manifest file
-            routeData.Values.Add("page-path", $"~/DesktopModules/MVC/RazorPagesModule/Pages/{pageName}.cshtml");
+                        
+            var moduleDef = ModuleDefinitionController.GetModuleDefinitionByID(moduleControl.ModuleDefID);
+            var desktopModule = DesktopModuleController.GetDesktopModule(moduleDef.DesktopModuleID, -1);
+
+            routeData.Values.Add("page-path", $"~/DesktopModules/MVC/{desktopModule.FolderName}/Pages/{pageName}.cshtml");
 
             if (httpContext != null)
             {
