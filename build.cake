@@ -25,6 +25,12 @@ Task ("NuGet")
 		OutputDirectory = "./Build/nuget/",
 		BasePath = "./src"
 	});	
+
+	NuGetPack ($"./.nuget/{PROJECT_NAME}.Platform.nuspec", new NuGetPackSettings { 
+		Version = VERSION,
+		OutputDirectory = "./Build/nuget/",
+		BasePath = "./src"
+	});	
 });
 
 //Build the component, which build samples, nugets, and libraries
