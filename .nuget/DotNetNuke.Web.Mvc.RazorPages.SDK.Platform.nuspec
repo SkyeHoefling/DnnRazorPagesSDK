@@ -13,9 +13,11 @@
     <summary>DNN Razor Pages SDK - Built specifically for usage in DNN Platform Codebase</summary>
     <releaseNotes>For changelog go to: https://github.com/ahoefling/DnnRazorPagesSDK/blob/master/CHANGELOG.md</releaseNotes>
     <tags>DNN, .NET, dotnet core, razor pages, dotnet, netstandard</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" />
+    </frameworkAssemblies>
     <dependencies>
-      <!-- there is a conflict with DotNetNuke nuget -->
-      <!-- update nuspec to include assembly references and depdendencies where applicable-->
+      <dependency id="Microsoft.AspNet.Mvc" version="[5.1.1]" />
     </dependencies>
   </metadata>
   <files>
