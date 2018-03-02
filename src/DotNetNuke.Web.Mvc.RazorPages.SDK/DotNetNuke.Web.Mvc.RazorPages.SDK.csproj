@@ -9,7 +9,7 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
     <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.csproj" />
     <PackageReference Include="DotNetNuke.Core" Version="9.1.1.129" />
-    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.1.1" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.1.3" />
     <Reference Include="System.Web" />
   </ItemGroup>
 
