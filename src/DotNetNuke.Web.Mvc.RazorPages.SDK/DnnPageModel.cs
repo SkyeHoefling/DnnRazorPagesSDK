@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-#if NETCOREAPP2_0
+#if NET_CORE
 using Microsoft.AspNetCore.Mvc.RazorPages;
 #elif NET45
 using DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework;
@@ -16,7 +16,7 @@ using DotNetNuke.UI.Modules;
 namespace DotNetNuke.Web.Mvc.RazorPages.SDK
 {
     public class DnnPageModel
-#if NECOREAPP2_0
+#if NET_CORE
         : PageModel
 #elif NET45
         : DnnViewResult
