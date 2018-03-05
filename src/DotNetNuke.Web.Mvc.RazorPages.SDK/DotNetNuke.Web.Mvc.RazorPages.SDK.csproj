@@ -16,6 +16,7 @@
   <!-- Need to conditionally bring in references for the .NET Core 1.0 target -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
     <ProjectReference Include="..\DotNetNuke.Web.Mvc.RazorPages.SDK.Core\DotNetNuke.Web.Mvc.RazorPages.SDK.Core.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.0.2" />
   </ItemGroup>
   <!--<ItemGroup>
     <PackageReference Include="DotNetNuke.Core" Version="9.1.1.129" />
