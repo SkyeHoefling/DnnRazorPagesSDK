@@ -9,7 +9,7 @@ The SDK for building DNN Platform and DNN vNext Modules
 ## Build
 
 * [![Build status](https://ci.appveyor.com/api/projects/status/mialwxkgf0tssrdd?svg=true)](https://ci.appveyor.com/project/ahoefling/dnnrazorpagessdk)
-* CI NuGet Feed: [https://ci.appveyor.com/nuget/DotNetNuke.Web.Mvc.RazorPages.SDK](https://ci.appveyor.com/nuget/DotNetNuke.Web.Mvc.RazorPages.SDK)
+* CI NuGet Feed: [https://ci.appveyor.com/nuget/DnnRazorPagesSDK](https://ci.appveyor.com/nuget/DnnRazorPagesSDK)
     
 ### Platform Support
 DNN Razor Pages Module SDK is available for use in the following supported platforms.
